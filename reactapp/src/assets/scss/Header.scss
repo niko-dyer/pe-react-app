@@ -1,0 +1,46 @@
+$link-color: #1976d2;
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+
+    * {
+        height: 15vh;
+    }
+}
+
+.MuiToolbar-root {
+    img {
+        height: 10vh; 
+    }
+
+    a {
+        color: white;
+    }
+}
+
+.page-heading {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 2rem 0;
+
+    a {
+        color: $link-color;
+    }
+
+    h6 {
+        font-size: 1.25rem;
+    }
+
+    .MuiBreadcrumbs-root {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h1 {
+        font-size: 3rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
